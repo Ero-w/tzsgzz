@@ -52,7 +52,6 @@
                 <li><a href="about.html">关于我们</a></li>
                 <li><a href="product_list.html">产品中心</a></li>
                 <li><a href="new_list.html">新闻动态</a></li>
-                <li><a href="case_list.html">产品应用</a></li>
                 <li><a href="contact.html">联系我们</a></li>
             </ul>
             <div class="header-serch  am-hide-md-down">
@@ -64,8 +63,13 @@
 
     </div>
 </header>
-    <div class="com-banner">
-        <img src="images/index_banner.jpg" />
+      <div  class="am-cf"></div>
+    <div class="am-slider am-slider-default" data-am-flexslider="{playAfterPaused: 8000}">
+        <ul class="am-slides">
+            <li><img src="images/index_banner.jpg" /></li>
+            <li><img src="images/index_banner.jpg" /></li>
+            <li><img src="images/index_banner.jpg" /></li>
+        </ul>
     </div>
     <div class="com-container">
         <div class="cms-g">
@@ -81,15 +85,13 @@
                     <div class="contact-left">
                         <h1>
                             <strong class="f-toe">台州市神工铸造有限公司</strong>
-                            <span class="f-toe">Daye Aladdin Technology Co., Ltd.</span>
+                            <span class="f-toe">Taizhou Shengong foundry Co.Ltd.</span>
                         </h1>
                         <ul>
-                            <li><span>业务质询一：</span><a href="#">467843489</a></li>
-                            <li><span>业务质询二：</span><a href="#">467843489</a></li>
-                            <li><span>咨询电话：</span>0714-8878313</li>
-                            <li><span>公司传真：</span>0714-8878313</li>
-                            <li><span>地址：</span>大冶大道116金惠小区好太太总部2楼</li>
-                            <li><span>邮编：</span>435100</li>
+                            <li><span>鲍庆富：</span><a href="#">18857618777</a></li>
+                            <li><span>罗斌：</span><a href="#">13736626999</a></li>
+                            <li><span>地址：</span>浙江省台州市三门县洞港工业园区</li>
+                            <li><span>邮编：</span>317100</li>
                             <li><span>网址：</span><a href="http://www.tzsgzz.com">http://www.tzsgzz.com</a></li>
                         </ul>
                     </div>
@@ -112,7 +114,7 @@
                 <li><a href="#"><span>友情链接</span></a></li>
                 <li><a href="#"><span>法律申明</span></a></li>
             </ul>
-            <span style="color:#fff;"><a href="http://www.haothemes.com/" target="_blank" title="好主题">好主题</a>提供 - More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></span>
+             <span style="color:#fff;"><a href="http://www.tzsgzz.com/" target="_blank" title="">台州神工铸造有限公司</a>
         </div></div>
 </footer>
 
@@ -129,7 +131,7 @@
     //创建地图函数：
     function createMap(){
         var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-        var point = new BMap.Point(121.337996,28.582557);//定义一个中心点坐标
+        var point = new BMap.Point(121.638434,28.860229);//定义一个中心点坐标
         map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
         window.map = map;//将map变量存储在全局
     }
@@ -156,7 +158,7 @@
     }
 
     //标注点数组
-    var markerArr = [{title:"台州市神工铸造有限公司",content:"台州市神工铸造有限公司",point:"121.337996|28.582557",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+    var markerArr = [{title:"台州市神工铸造有限公司",content:"台州市神工铸造有限公司",point:"121.638434|28.860229",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
 		 ];
     //创建marker
     function addMarker(){
